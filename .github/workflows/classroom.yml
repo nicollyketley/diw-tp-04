@@ -18,7 +18,7 @@ jobs:
       uses: webtech-network/web-code-autograding/actions/command-grader-action@v1
       with:
         test-name: Validate GIT
-        setup-command: npm install
+        # setup-command: npm install
         # command: npm test validateGIT.test.js
         # command-type: cmd
         command: validateGITRepo
@@ -31,7 +31,7 @@ jobs:
       uses: webtech-network/web-code-autograding/actions/command-grader-action@v1
       with:
         test-name: Validate HTML
-        setup-command: npm install
+        # setup-command: npm install
         # command: npm test validateHTML.test.js
         # command-type: cmd
         command: validateHTMLFile
@@ -44,7 +44,7 @@ jobs:
       uses: webtech-network/web-code-autograding/actions/command-grader-action@v1
       with:
         test-name: Validate CSS
-        setup-command: npm install
+        # setup-command: npm install
         # command: npm test validateCSS.test.js
         # command-type: cmd
         command: validateCSSFile
@@ -58,7 +58,5 @@ jobs:
         VALIDATE-GIT_RESULTS: "${{steps.validate-git.outputs.result}}"
         VALIDATE-HTML_RESULTS: "${{steps.validate-html.outputs.result}}"
         VALIDATE-CSS_RESULTS: "${{steps.validate-css.outputs.result}}"
-        # VALIDATE-CSS2_RESULTS: "${{steps.validate-css2.outputs.result}}"
       with:
         runners: validate-git,validate-html,validate-css
-        # runners: validate-html,validate-css,validate-css2
