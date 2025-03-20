@@ -6,6 +6,7 @@
     "forbidNoFFMerge": false,
     "minMerges": 0,
     "minLinesChanged": 200,
+    "checkGitIgnore": false,
     "requiredGitIgnoreEntries": [],
     "requiredFiles": ["README.md", "public/index.html", "public/styles.css"]
   },
