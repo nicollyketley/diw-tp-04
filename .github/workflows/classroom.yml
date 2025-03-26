@@ -13,6 +13,8 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+      with: 
+        fetch-depth: 0
     - name: Validate GIT
       id: validate-git
       uses: webtech-network/web-code-autograding/actions/command-grader-action@v1
