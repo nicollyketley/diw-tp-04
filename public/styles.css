@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.artistas {
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.artistas article {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.formulario {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+
+.formulario input {
+    margin: 5px;
+    padding: 8px;
+    width: 200px;
+}
+
+.formulario button {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
